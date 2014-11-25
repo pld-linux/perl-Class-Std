@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Class
 %define	pnam	Std
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Std - Support for creating standard "inside-out" classes
 Name:		perl-Class-Std
 Version:	0.0.9
@@ -13,6 +13,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	376e009ce786d7f1887b212d6582e63f
+URL:		http://search.cpan.org/dist/Class-Std/
 BuildRequires:	perl-modules >= 1:5.8.8
 BuildRequires:	perl-version >= 0.44
 BuildRequires:	rpm-perlprov >= 4.1-13
