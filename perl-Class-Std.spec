@@ -4,7 +4,6 @@
 
 %define	pdir	Class
 %define	pnam	Std
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Std - Support for creating standard "inside-out" classes
 Name:		perl-Class-Std
 Version:	0.0.9
