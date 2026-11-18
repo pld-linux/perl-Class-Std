@@ -6,15 +6,14 @@
 %define	pnam	Std
 Summary:	Class::Std - Support for creating standard "inside-out" classes
 Name:		perl-Class-Std
-Version:	0.0.9
-Release:	2
+Version:	0.013
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	376e009ce786d7f1887b212d6582e63f
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	82bcc56d9769edce671b0bd0e183ec3a
 URL:		http://search.cpan.org/dist/Class-Std/
 BuildRequires:	perl-modules >= 1:5.8.8
-BuildRequires:	perl-version >= 0.44
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
